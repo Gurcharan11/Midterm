@@ -16,9 +16,6 @@ public class StausUser {
     public enum Status {ZERO, ONE, TWO, THREE};
     private Status code;
 
-    public StausUser(Status code) {
-        this.code = code;
-    }
 
     public void statusDetail(Status code) {
 
@@ -54,5 +51,7 @@ public class StausUser {
     public void setCode(Status code) {
         this.code = code;
     }
+    
+    
 
 }
